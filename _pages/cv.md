@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,50 @@ redirect_from:
 
 {% include base_path %}
 
+You can download a full PDF copy of my academic CV [here](/files/Kirithika%20Dayananthan%20PhD%20CV1.pdf)[cite: 27, 28].
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- **Master of Research (MRes) in Artificial Intelligence Enabled Healthcare**[cite: 27]
+  * University College London (UCL)[cite: 27]
+  * Sept 2026 – Present[cite: 27]
+  * *Advanced Coursework:* Advanced Machine Learning for Healthcare, Programming with Python for Health Research, Principles of Health Data Science, Artificial Intelligence in Healthcare[cite: 27].
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **BSc (Hons) Biomedical Science | First Class Honours**[cite: 27]
+  * Kingston University London[cite: 27]
+  * Sept 2021 – June 2026[cite: 27]
+  * *Focus Modules:* Clinical Applications of Biomedical Sciences, Medical Microbiology, Clinical Biochemistry, Haematology and Transfusion Science[cite: 27].
+  * *Leadership:* President of the BioSciences Society (2023–2024)[cite: 27].
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Research Experience & Academic Projects
+======
+- **Undergraduate Final Year Dissertation**[cite: 27]
+  * Kingston University – Supervisor: Dr Francesca Mackenzie[cite: 27]
+  * Jan 2026 – April 2026[cite: 27]
+  * *Project:* "Cognitive Reserve as a Modifiable Factor on Alzheimer's Disease Discordance: A Systematic Review of Evidence from Co-Twin Studies"[cite: 27].
+  * *Scale & Scope:* Executed a systematic review adhering to PRISMA and PICOS frameworks, synthesising data from 8 primary longitudinal studies encompassing 846 twin pairs[cite: 27].
+  * *Technical Analysis:* Engineered a random-effects meta-analysis model using R-Studio, conducting 'leave-one-out' sensitivity analyses ($p<0.0001$)[cite: 27].
+  * *Impact:* Calculated a pooled Odds Ratio of 0.57 (43% risk reduction). Awarded a First Class grade (93%)[cite: 27].
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Professional Experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **NHS 111 Health Advisor & Coach**[cite: 28]
+  * Hertfordshire Urgent Care (HUC)[cite: 28]
+  * Sept 2025 – Present[cite: 28]
+  * *Duties:* Selected as Coach to mentor colleagues in NHS Pathways clinical decision algorithms; triage approx. 30 patients per shift under high pressure[cite: 28].
 
-Publications
+- **Private Tutor (Mathematics & Science)**[cite: 28]
+  * Regal International College Ltd[cite: 28]
+  * Sept 2022 – Jan 2024[cite: 28]
+  * *Duties:* Delivered targeted 1-to-1 tutoring in foundational science and mathematics, developing strong science communication skills[cite: 28].
+
+- **Student Ambassador**[cite: 28]
+  * Kingston University London[cite: 28]
+  * Nov 2022 – Sept 2024[cite: 28]
+  * *Duties:* Represented the university at high-profile public events[cite: 28].
+
+Technical & Methodological Competencies
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- **Data Science & Programming:** Python, R-Studio, Advanced Excel, Machine Learning, Predictive Modelling, Random-Effects Meta-Analysis[cite: 28].
+- **Clinical & Laboratory:** NHS 111 Triage Algorithms, ELISA, PCR, Spectrophotometry[cite: 28].
+- **Certifications:** Google AI Fundamentals Certified (2026), Data Security Awareness (NHSD) via UCL[cite: 28].
