@@ -1,24 +1,24 @@
 /* ==========================================================================
-    DEFAULT THEME - LIGHT VERSION
-    ========================================================================== */
+   DEFAULT THEME - LIGHT VERSION (Soft Academic Aesthetic)
+   ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #2f7f93;
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$primary-color              : #D4A3A3; /* Dusty rose */
+$gray                       : #8D7A6E; /* Soft mocha brown */
+$dark-gray                  : #4A3B32; /* Rich espresso brown */
+$darker-gray                : #2A1F1A; /* Deepest espresso */
+$light-gray                 : #C9BDB7; /* Light taupe */
+$lighter-gray               : #F3ECE9; /* Very warm off-white */
 
 /* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+$danger-color               : #D4A3A3; /* Softened to dusty rose */
+$info-color                 : #B58484; /* Warm rose-brown */
+$notice-color               : #8D7A6E; /* Mocha */
+$success-color              : #A5BCA0; /* Soft muted sage green */
+$warning-color              : #DAB993; /* Soft warm ochre */
 
 /* Other basic settings for the template */
 $border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$box-shadow                 : 0 1px 1px rgba(74, 59, 50, 0.08); /* Shadow tinted to brown */
 $global-transition          : all 0.2s ease-in-out;
 $masthead-height            : 70px;
 $navicon-width              : 28px;
@@ -29,20 +29,19 @@ $sidebar-screen-min-width   : 1024px;
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
+    --global-bg-color                   : #FDF4F6; /* Softest baby pastel pink */
+    --global-footer-bg-color            : #F8E8EB; /* Slightly deeper pastel pink for grounding */
+    --global-border-color               : #FFFFFF; /* Crisp white borders */
+    --global-dark-border-color          : #EBDADA; /* Soft rose-taupe borders */
+    --global-code-background-color      : #FFFFFF; /* Crisp white code blocks to pop off the pink */
+    --global-code-text-color            : #4A3B32; /* Espresso text for code readability */
+    --global-fig-caption-color          : #8D7A6E; /* Mocha brown captions */
+    --global-link-color                 : #B58484; /* Warm rose-brown hyperlinks */
+    --global-link-color-hover           : #8F6262; /* Darker vintage brown on hover */
+    --global-link-color-visited         : #B58484;  
+    --global-masthead-link-color        : #4A3B32; /* Espresso navigation links */
+    --global-masthead-link-color-hover  : #D4A3A3; /* Dusty rose navigation hover */    
+    --global-text-color                 : #4A3B32; /* Espresso brown for all primary reading text */
+    --global-text-color-light           : #8D7A6E; /* Mocha brown for secondary text */
+    --global-thead-color                : #FFFFFF; /* Crisp white table headers */
 }
-
