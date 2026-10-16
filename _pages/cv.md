@@ -18,7 +18,7 @@ Education
   * Sept 2026 – Present
   * *Advanced Coursework:* Advanced Machine Learning for Healthcare, Programming with Python for Health Research, Principles of Health Data Science, Artificial Intelligence in Healthcare.
 
-- **BSc (Hons) Biomedical Science | First Class Honours**
+- **BSc (Hons) Biomedical Science - First Class Honours**
   * Kingston University London
   * Sept 2021 – June 2026
   * *Focus Modules:* Clinical Applications of Biomedical Sciences, Medical Microbiology, Clinical Biochemistry, Haematology and Transfusion Science.
