@@ -1,32 +1,32 @@
 /* ==========================================================================
-    DEFAULT THEME - DARK VERSION
-    ========================================================================== */
+   DEFAULT THEME - DARK VERSION (Soft Academic Aesthetic)
+   ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #0ea1c5;
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+$primary-color              : #D4A3A3; /* Dusty rose */
+$gray                       : #8D7A6E; /* Soft mocha brown */
+$dark-gray                  : #C9BDB7; 
+$darker-gray                : #F5EBE6; 
+$light-gray                 : #4A3B32; /* Soft brown for borders */
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$background                 : #231B18; /* Deep rich espresso brown background */
+$background-light           : #2A1F1A; 
+$background-lighter         : #352822; 
+$text                       : #F5EBE6; /* Warm cream text */
+$link                       : #E0B1B1; /* Soft dusty rose links */
+$link-dark                  : #D4A3A3; 
+$link-light                 : #FDF4F6; 
 
 /* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+$danger-color               : #D4A3A3; 
+$info-color                 : #E0B1B1; 
+$notice-color               : #8D7A6E; 
+$success-color              : #A5BCA0; /* Soft muted sage */
+$warning-color              : #DAB993; /* Soft warm ochre */
 
 /* Other basic settings for the template */
 $border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.3);
 $global-transition          : all 0.2s ease-in-out;
 $masthead-height            : 70px;
 $navicon-width              : 28px;
@@ -38,19 +38,18 @@ $sidebar-screen-min-width   : 1024px;
 html[data-theme="dark"] {
     --global-base-color                 : #{$primary-color};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
+    --global-footer-bg-color            : #1A1311; /* Darker cocoa footer */
     --global-border-color               : #{$light-gray};
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
+    --global-code-background-color      : #2A1F1A; /* Chocolate code blocks */
+    --global-code-text-color            : #{$text};
+    --global-fig-caption-color          : #C9BDB7;
     --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
+    --global-link-color-hover           : #{$link-light};
+    --global-link-color-visited         : #{$link};
     --global-masthead-link-color        : #{$text};
     --global-masthead-link-color-hover  : #{$primary-color};
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
+    --global-text-color-light           : #C9BDB7;
     --global-thead-color                : #{$background-lighter};
 }
-
