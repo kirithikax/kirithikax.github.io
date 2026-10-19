@@ -11,7 +11,7 @@ tags:
 
 In high-pressure emergency triage environments like the NHS 111 service, time and accuracy are critical. One persistent operational bottleneck occurs when calls originate from care home staff regarding residents who present without specific, easily categorised symptoms, yet require assessment. While care workers often have accurate vital signs readily available, standard symptom-based triage algorithms can struggle to rapidly process these raw numbers into an immediate escalation decision. 
 
-To address this, I am currently developing **CARE111**—an active computational decision-support system designed to ingest raw clinical observations from care workers, calculate risk using established medical frameworks, and immediately flag patients requiring urgent clinician review.
+To address this, we are currently developing **CARE111**—an active computational decision-support system designed to ingest raw clinical observations from care workers, calculate risk using established medical frameworks, and immediately flag patients requiring urgent clinician review.
 
 ### The Clinical Logic and Parameters
 The core function of CARE111 evaluates whether a patient's vital signs deviate significantly from their established baselines or standard acceptable ranges. The system processes six primary observations: Respiration Rate, Oxygen Saturations (SpO₂), Systolic Blood Pressure, Pulse Rate, Level of Consciousness, and Temperature.
