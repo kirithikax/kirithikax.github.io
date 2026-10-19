@@ -1,6 +1,6 @@
 ---
 title: 'Building CARE111: Translating Frontline Triage into a Python Decision Engine'
-date: 2026-10-19
+date: 13-10-2026
 permalink: /posts/2026/10/building-care111/
 tags:
   - Clinical AI
