@@ -53,3 +53,7 @@ html[data-theme="dark"] {
     --global-text-color-light           : #C9BDB7;
     --global-thead-color                : #{$background-lighter};
 }
+/* Global Academic Typography Override */
+body, h1, h2, h3, h4, h5, h6, p, a, li, span, .author__name, .page__title, .archive__item-title {
+    font-family: "Garamond", "Georgia", "Times New Roman", serif !important;
+}
