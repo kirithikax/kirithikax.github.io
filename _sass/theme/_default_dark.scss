@@ -36,22 +36,22 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #E5BABA;
-    --global-bg-color                   : #3A2A27; /* Noticeably lighter, warmer rosewood brown */
-    --global-footer-bg-color            : #2D1F1C;
-    --global-border-color               : #705A4D;
-    --global-dark-border-color          : #473531;
-    --global-code-background-color      : #2A1F1A;
-    --global-code-text-color            : #FFF6F2;
-    --global-fig-caption-color          : #DBCFCA;
-    --global-link-color                 : #E5BABA;
+    --global-base-color                 : #D4A3A3; /* Dusty rose accents */
+    --global-bg-color                   : #4A3B32; /* The exact espresso brown from your light mode text */
+    --global-footer-bg-color            : #3A2A27; 
+    --global-border-color               : #8D7A6E;
+    --global-dark-border-color          : #705A4D;
+    --global-code-background-color      : #3A2A27;
+    --global-code-text-color            : #FDF4F6;
+    --global-fig-caption-color          : #D4A3A3;
+    --global-link-color                 : #E5BABA; /* Bright pastel pink for links */
     --global-link-color-hover           : #FFFFFF;
     --global-link-color-visited         : #E5BABA;
-    --global-masthead-link-color        : #FFF6F2;
-    --global-masthead-link-color-hover  : #E5BABA;
-    --global-text-color                 : #FFF6F2;
-    --global-text-color-light           : #DBCFCA;
-    --global-thead-color                : #54403B;
+    --global-masthead-link-color        : #FDF4F6; /* Baby pink for the top navigation */
+    --global-masthead-link-color-hover  : #D4A3A3;
+    --global-text-color                 : #FDF4F6; /* The exact baby pink from your light mode background! */
+    --global-text-color-light           : #D4A3A3;
+    --global-thead-color                : #5E4B40;
 }
 /* Global Academic Typography Override */
 body, h1, h2, h3, h4, h5, h6, p, a, li, span, .author__name, .page__title, .archive__item-title {
