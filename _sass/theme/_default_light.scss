@@ -45,3 +45,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color-light           : #8D7A6E; /* Mocha brown for secondary text */
     --global-thead-color                : #FFFFFF; /* Crisp white table headers */
 }
+/* Global Academic Typography Override */
+body, h1, h2, h3, h4, h5, h6, p, a, li, span, .author__name, .page__title, .archive__item-title {
+    font-family: "Garamond", "Georgia", "Times New Roman", serif !important;
+}
