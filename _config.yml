@@ -186,6 +186,10 @@ exclude:
   - README
   - tmp
   - vendor
+  - 2199-01-01-future-post.md
+  - 2015-08-14-blog-post-4.md
+  - 2014-08-14-blog-post-3.md
+  - 2013-08-14-blog-post-2.md
 keep_files:
   - .git
   - .svn
