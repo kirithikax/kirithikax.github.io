@@ -36,22 +36,22 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #1A1311; /* Darker cocoa footer */
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #2A1F1A; /* Chocolate code blocks */
-    --global-code-text-color            : #{$text};
-    --global-fig-caption-color          : #C9BDB7;
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-light};
-    --global-link-color-visited         : #{$link};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$primary-color};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #C9BDB7;
-    --global-thead-color                : #{$background-lighter};
+    --global-base-color                 : #E5BABA;
+    --global-bg-color                   : #3A2A27; /* Noticeably lighter, warmer rosewood brown */
+    --global-footer-bg-color            : #2D1F1C;
+    --global-border-color               : #705A4D;
+    --global-dark-border-color          : #473531;
+    --global-code-background-color      : #2A1F1A;
+    --global-code-text-color            : #FFF6F2;
+    --global-fig-caption-color          : #DBCFCA;
+    --global-link-color                 : #E5BABA;
+    --global-link-color-hover           : #FFFFFF;
+    --global-link-color-visited         : #E5BABA;
+    --global-masthead-link-color        : #FFF6F2;
+    --global-masthead-link-color-hover  : #E5BABA;
+    --global-text-color                 : #FFF6F2;
+    --global-text-color-light           : #DBCFCA;
+    --global-thead-color                : #54403B;
 }
 /* Global Academic Typography Override */
 body, h1, h2, h3, h4, h5, h6, p, a, li, span, .author__name, .page__title, .archive__item-title {
