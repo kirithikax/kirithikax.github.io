@@ -22,7 +22,7 @@ repository               : "kirithikax/kirithikax.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/profile.jpg" 
+  avatar           : "/profile.jpg" 
   name             : "Kirithika Dayananthan"
   pronouns         : "She/Her"  
   bio              : "MRes student in AI Enabled Healthcare focusing on neuro-oncology and clinical decision-support systems."
